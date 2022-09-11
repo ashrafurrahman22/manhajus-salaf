@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../../../Styles/Navbar.css'
+import logo from '../../../assets/logo.png'
 
 const Navbar = () => {
     return (
@@ -19,7 +20,9 @@ const Navbar = () => {
     </div>
     <Link style={{
         fontFamily:"aleo",
-    }} to='/' className="text-2xl font-medium btn btn-ghost normal-case ">Manhajus Salaf</Link>
+    }} to='/' className="text-2xl font-medium btn btn-ghost normal-case ">
+      <img className='w-14' src={logo} alt="" />
+      Manhajus Salaf</Link>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul style={{
