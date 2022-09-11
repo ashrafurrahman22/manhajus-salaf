@@ -35,8 +35,8 @@ const Navbar = () => {
       <li><Link to='/videos'>Videos</Link></li>
     </ul>
   </div>
-  <div className="navbar-end">
-    <Link id='btn' to='/donation' className="btn font-medium">Donation</Link>
+  <div className="lg:navbar-end lg:flex hidden">
+    <Link id='btn' to='/donation' className="btn lg:w-44 font-medium">Donation</Link>
   </div>
 </div>
     );

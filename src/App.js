@@ -3,6 +3,7 @@ import './App.css';
 import Donation from './Pages/Donation/Donation';
 import Home from './Pages/Home/Home';
 import Error from './Pages/Shared/Error/Error';
+import Footer from './Pages/Shared/Footer/Footer';
 import Navbar from './Pages/Shared/Header/Navbar';
 
 function App() {
@@ -17,7 +18,7 @@ function App() {
           <Route path='*' element={<Error></Error>}></Route>
         </Routes>
 
-
+      <Footer></Footer>
     </div>
   );
 }

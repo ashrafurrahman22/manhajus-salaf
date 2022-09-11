@@ -6,6 +6,10 @@
     font-size: 17px;
 }
 
-#btn:hover {
-    background-color: blueviolet;
+
+@media only screen and (max-width:576px) {
+    #btn {
+        letter-spacing: 1px;
+        font-size: 8px;
+    }
 }
